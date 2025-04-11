@@ -15,7 +15,7 @@ function ImageDisplay({ topKImages, outputImage, isLoading }) {
       {/* Left side: Grid of top K images */}
       <div className="left-images-container">
         {topKImages.map((imgUrl, index) => (
-          <img key={index} src={"/test.jpeg"} alt={`Top image ${index + 1}`} />
+          <img key={index} src={"https://urbanclap-prod.s3.ap-southeast-1.amazonaws.com/images/marketplace/provider/1670831705342-41117d.jpeg"} alt={`Top image ${index + 1}`} />
         ))}
       </div>
 
